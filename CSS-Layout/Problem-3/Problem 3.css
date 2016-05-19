@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+}
+
+body {
+    width: 50%
+}
+
+section { 
+    background: #404040;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    height: 100%;
+    color: #8c8c8c;
+}
+
+section p {
+    padding: 10px;
+    letter-spacing: 1px;
+}
+
+h1 {
+    padding:  15px 10px;
+    font-size: 2em;
+    color: #ffff00;
+    font-weight: normal;
+}
+
+header {
+    background: linear-gradient(to bottom, #404040 50%, #262626 100%);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom: 1px outset #262626;
+}
+
+header span {
+    color: #fff;
+    font-size: 1.5em;
+    position: relative;
+    top: -17.5px;
+    margin: 10px;
+}
+
+.spn {
+    color: #fff;
+}
+
+input[type="text"] {
+    width: 20%;
+    margin: 15px;
+}
+
+#GO {
+    margin: 5px;
+}
