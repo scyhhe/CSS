@@ -1,0 +1,22 @@
+li {
+    list-style: none;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.hide {
+    color: rgb(179, 179, 179);
+    display: none;
+}
+
+li:hover .hide {
+    display: block;
+}
+
