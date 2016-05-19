@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+ul {
+    display: inline-block;
+    margin-top: 10px;
+    padding-bottom: 10px;
+}
+
+hr {
+    background: black;
+    color: black;
+    margin: 0 30px;
+    border: 1px solid black;
+}
+
+ul li {
+    list-style: none;
+    display: inline-block;
+    font-size: 2em;
+}
+
+ul li a {
+        color: #33ccff;
+}
+
+#container {
+    width: 60%;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.col1, .col2, .col3{
+    margin: 10px;
+    border: 2px solid black;
+    display: inline-block;
+    width: 30%;
+    
+}
+
+fieldset {
+    margin: 5px 20px;
+    font-size: 1.15em;
+    text-align: center;
+    font-weight: 600;
+    border: 2px solid black;
+}
+
+fieldset span {
+    display: block;
+    margin: 10px;
+    line-height: 30px;
+}
+
+fieldset span:last-child {
+    clear: left;
+    text-align: left;
+    padding-left: 20px;
+}
+
+fieldset img {
+    float: left;
+    height: 100px;
+    width: 150px;
+}
+
+.col3 {
+    text-align: center;
+    font-size: 1.5em;
+    border: none;
+}
+
+input[type="range"] {
+    width: 75%;
+    margin-left: 20px;
+}
+
+.minmax {
+    display: flex;
+    padding-left: 20%;
+    margin: 50px 0;
+}
+
+.minmax span {
+    margin-left: 20px;
+}
+
+.header {
+    text-align: center;
+}
